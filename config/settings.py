@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-(thyaz-_b57r&oomps)z8no3+jdpfo5#x^hrg&lt^z%h74-w#_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'medilab-web-site.onrender.com',
+    'localhost',
+    '127.0.0.1'
+]
+
 
 # Application definition
 
